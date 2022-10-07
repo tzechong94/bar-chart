@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+svg {
+    background-color: white;
+}
+
+.bar {
+    border-color: #2B7A78;
+    fill: #2B7A78;
+}
+
+.bar:hover {
+    fill: white;
+}
+
+#title {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
